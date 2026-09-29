@@ -1,0 +1,473 @@
+<!-- #region head -->
+<!doctype html>
+<html
+  lang="en"
+  class="page"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Nothing</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="/layout_landing-page/assets/logo-BDjQXraQ.png"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" crossorigin href="/layout_landing-page/assets/index-Csa27AjR.css">
+  </head>
+  <!-- #endregion-->
+  <body class="page__body">
+    <header class="header">
+      <div class="top-bar">
+        <a
+          href="#"
+          class="top-bar__logo"
+        >
+          <img
+            class="header__logo"
+            src="data:image/png;base64,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"
+            alt="Nothing logo"
+          />
+        </a>
+
+        <div class="top-bar__icons">
+          <a
+            href="tel:+123455555555"
+            class="icon icon--phone"
+          ></a>
+          <a
+            href="#menu"
+            class="icon icon--menu"
+          ></a>
+        </div>
+      </div>
+
+      <a
+        href="#"
+        class="header__hero-link"
+      >
+        <img
+          class="header__hero-image"
+          src="/layout_landing-page/assets/hero-woman-DrOErqr6.jpg"
+          alt="Woman holding Nothing Phone"
+        />
+      </a>
+
+      <div class="header__bottom">
+        <h1 class="header__title">
+          Bring joy back
+          <br />
+          to the everyday
+        </h1>
+      </div>
+    </header>
+
+    <aside
+      class="page__menu menu"
+      id="menu"
+    >
+      <div class="top-bar menu__top">
+        <a
+          href="#"
+          class="top-bar__logo"
+        >
+          <img
+            class="header__logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAAQCAYAAAA76nChAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAC7tJREFUeAGlWXnMJEUVr+6Z7q6rr/m+deVQQQiHohwrEUU8YBFBuYOKqCGCCeEQ5cii4B8SuYyIIkQUQlA0WRUBTRYC4rFBJCu4hHWRY2FXJEBgOXaB/Vi+men296q7Z+rr6R6JvmSmZ6pevXr16tXvvXrdYaAgCHZRIl7vsE4wGM6vZC0UdMIjpFQPMMdbOxzOP2r3cc7fIYLwXx23M+QBP9HzxIXdrrtG+OEjLnM3DrL+aovdCcNwlnt6neO4sx3X21lyuSJnnT9JrlZ1O77qdrpLRKBv6nruSu7r1Z1ud/vBYP4OGoz206XQv+/kzl39rP9Mm76hjG/zfX7+fP+N6/F3iI8X6vQByF7qdpw5ycP7uq67hgt5W9ftLukP+rfSOCnlttxX633P3xFjV7TJF4E6U4rwTuhxJ/R41u7zPG/fUCSP5Q57lAdymd8NLsBaHuKwh4M5A59fxAN1wXx/K+mWNYh3yo/9//+hheNh6Isj3csj1Xtu2iit4pXEp0V0b71PCXUO9YUynQtVktMnUumGUKX43Xu4zi98/ek4xJwy3QLejcQX6/RxekYqeQXPlzEf2npPlLK2jPSQyb/xP5c8vn6KugnpE+uZXAixHzX4vnpPHM5Cx2QInZ4q5W6mJ+YxTkF8nMsv0ziMfwN/3VZ7yPQpmgPOc+2EPXj4s2It6UYt434xV29DYZv0WTyHNIf29R4t4jv4OELo4/CMLT2aNr/NOXz6Wrx4sbL/V8IZ76qDZmdnw9qkNpFBXBWoj5e/O3Ue6csjF7FFWjDxds7DA6hN+Op46qrJNeOCQB2slFqMn1r44ljD3xUfTFiS0EKBEkcbuTI8kpChXBDNLRWPl5b/u2ySjIGAPjsqT+1p6Y8TKPcN/XA3GisDeWipxyF0um150GP/cs42exCfUlwttfSydaEN+yy1BSzYSYhwf6OTr04g/YIg3BXO+P4W2YU9g/Ba47hq5nl7DaXNDEHG9vS07LPAHtDhCuP4XF3C6ouBd59ERvJ9f/cgEGdUilt8Lk0GZc8lO1XCwf8u3w/Psxdrj6l+4JQdHwTyMIun6QR1AZlnQY8d6vpZ8ko91Dms8Nwmg1WbfoDvm5MyGlsxkJHgaMvYQoeseDzIPxvPNOjIw5UIv8cm4Zb0eCvsQXqMNrzbVUuVDK9jY+M32aPRRlafadNa74ENGwoejjaMe/JLtIlw+tuVSJcDHQnxVgBFCF2fqsvTIrnZ8AfRD8qmwl5BEJ1m4MxAcWogURUndAGh72niAVzdXCkM3gzQmMMw57EWwinaOwlncvrAM9/WysejH5We/RqbQtDjmQiL1SL+9RS2RTHmo7Vwrj9W78Q61tNalEzvqPdpHv7YhCrV6xfQD719/ZlJPXrPlXr8smzyImPHHvjDZex/I8p3ZpSM70eudajVTgeNkRNDp4xsJSiEULjlyc9hkywUvUcsfo+NkeGtvMsP1CIke5lNJ8/SUkSrOFdfwGk8RcvoL2jjdW3Q90ls+D85j99ZjkObPl2J6G9xHKesPd44mPC3OAE3WG0NJLdRMlqLE3oCm0LQ43AY+lFCpobukafLILoS8m4v2xbMibEHIravQ0zdvVmPeA14Pur78iglkhtZwylF35HIbx6hJLZqB/IdC7k3sWKT2pKxqQmaDPRPCqdLMzaBCttKtD+IOSmsEGLN0LMMzS4Sy79yj59Uky8TZXKUHCh+ttGz6Ns5qE9ebiQReYxxgiQx8ZaV/2mMO8tGuYDPJomM1WFjo3VZM7QHtadgzSRsfXu9XlR1RFHUq+lYzVePdbKmr6jrYa19RCHicPnTs8Z4lgxek1vlPiYPMTLKPCFN09iKzW5dXxyub+NwTTg1bk83IFkmVB6ysUOY0yu4uLRIyNOc1cILEPaYSPZuG42hZMtkkjK6pxKOROxk0ybiu6o2eP8qA/0yvLhq0yp9soS/41gLAd63Aez1owK2VRsfkpzPx3qWbgd3sylEp5dgFFnzNfD6Pgy0hvSkBQshryZ4JbQiiIzDcfZuE+ZYHpvMW3+z3ieEOovWBOh8aDSniG6kOXGKbxnrkd5BMgJPnzqWmz5chBT+4bLJx7iXcOOYw5w/JB0V18uh9ybSrZa/FHYAFOO694qW4W9qXWYjEVLuRbx/N6OT7cl9zLxav4XcHWH20iqJtsjF/E9Q6Cb0Mh42ZNnA7H9usQ3ZoASnUWueD+/L8xzcgwdGbdlwXY5vN8/XsRaam+vMG1FOnrMplFV6MCdj02lQsOUkl4TmWZ73HRqcufNoR4s7QM+AtHcGzrAuADr36YBl2WRflg3+kRPHcLhmNGE2vJ9GDbPB/ZYafebAhG42luHAcg40cUZrAMNw6DrOgOZ0jEGdTVmWPY7PpmBrsHlCN8fZ0+k4YZZ3966vGw55bp6x/fIhuwoOuLIb8L/Dma5yM29Dojsvb3k9+/7Wra/SofGscTCMM4fP686QnmM4raBCVgNs6GwgxSZP7TR4r8hj0+HdtfRom7eSw+iKWI0hyKRnGd/q8dM2gqy12XPVcxlt6eaxSWqC92q9ZA8D19VduSFs1O1hZEhPn8bG4WFEQK0PAdleVX74dRTDLjN1AuQdyMnupfpF7ZpJZNZPiIL865RRK2V3iAPP4s55XZ2ZmfiS3oNiwx+QBR8I6NyCZOWoigmTXQm4QTXK3HObyNxhtUpWl+Gjrdjh0J0TMPoY99SJbAr5vjgGcL4uDuKdWuYzhMLPCsy7ljXkB91ucAjgf73fUByhayhgezMqgec3yNdY7zrY46cE4UaPIrE1hFC5DMYnJIzZZJI2+k/hAieUQudkkunrC4vYnGyqjXcJxqWMH4eNvli2BcW84uiyBkBUv8bKQt4MQlF5HedeeGIc0lVtdsBqm0IbkVAVy1SUkidNlUnEVUXOTfTMFop1Yny3n7QS4g/JKKtj27XxwYGuNle2sLeZTSGUUl8wcVtFv2rnSpLqyoY5P1DvjcJ0g5HBo7vqfYiLl5fVxafrfXTSkqKqtxU8m80VlkfLy24P8w1M3A6ir7VpRjYgGfRBvrNkYn5P7QUZA9ymLrGqaQZRkINQHoO1J3MjeyDBpHU2rLVCXheocBZ0fbhCwyLz88R+ZfZrb7r5TeVLKGcSBqpesXExwiGUQGXrU9aYxsIDEo73Waeq6bSbDB/XsVNLx2hDBFcxKs7oM1h7qKiKMzt444rcggqiKc4E4ky2EAXG1cKOPLQME51aP23a/mW9IaaiFrNgGCixG+R+ta6LPd7ID4KDcTqPa+DpjnnkYeS4KEf/uWwyG48E826Mr1DO2Nvc2wN1+ba40tlygEiXmMRyjJ6d0ReUP7mlDjxSqMd6ERIJKjokbOE1zPAB/s9HCXY7lDqX4K5I8BPAw76DZ9S08BoVSir1CTxS1lxeNePJ+6sSKptSkaNTad0qinX66nMwGM1BpdDDDR+qb3COvSw+B05+RKlHp0k2ETkFypxnlOurl6VdhEuyQQfZ+Ee8wh44ceoyPBfb62EtBMf+SlzcGFZVbVROxX96Z7HRYjUnGi95lpgbF0501YGbzu9M3BfhTQuEo4hxGnVQxYw1J2OGAHcPGpiXyep6HzztWwSXZVEBVybzgmFIvwGXq9ibINSnv1vISF+axodFG2jGgm5o59KLCD6j4vpkKnIEpUWoMi91XsRbOIpzr5MR6erFyiQKb/GuKPV4YZoegMu15gWKSCbWh5j9i8jM03vRvHQie+jeq8UzfZL9dxpV0+z/dEWD3D4P9DX1AUCZo2l9eGNabXpZKh8VoEaJKMGDgjL3lbXoVsKES7DhG/Dct6E7xUavoUwSycx5eFlwK8LCe2OVbIDie7E3QYhNu2ATnqdkaBqfRhYKY75inc46FQWJQF+JTJfKrFWyhNMXrkBcvIgqWjgtrxEaoO2PeLV7gaXHrpC/Eafy3Gl60AsTsgeQrX61IgfbB5v8MlUPUbn7hhTxLRRuQhE/gVh9EHtzVK/c1dHPLqgV0N/y4sWm/wB4b5nsG6XcTQAAAABJRU5ErkJggg=="
+            alt="Nothing logo"
+          />
+        </a>
+        <a
+          href="#"
+          class="icon icon--close"
+        ></a>
+      </div>
+
+      <div class="menu__content">
+        <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#recommend"
+              >
+                Products
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#browse"
+              >
+                Store
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#about"
+              >
+                Login
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#contact"
+              >
+                Cart(0)
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <a
+          href="tel:+123455555555"
+          class="menu__phone-number"
+        >
+          +1 234 5555-55-55
+        </a>
+
+        <a
+          href="tel:+123455555555"
+          class="menu__call-to-order"
+        >
+          Call to order
+        </a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section
+        class="recommend"
+        id="recommend"
+      >
+        <h2 class="recommend__title">Recommended</h2>
+
+        <div class="recommend__cards">
+          <a
+            href="#"
+            class="card recommend__card"
+          >
+            <div class="card__image-wrap">
+              <img
+                class="card__image"
+                src="/layout_landing-page/assets/recommended-phone-1-sWU95RQB.jpg"
+                alt="Phone (1)"
+              />
+            </div>
+            <h3 class="card__name">Phone (1)</h3>
+            <p class="card__description">
+              Through the Glyph Interface, a perfected OS and exceptional dual
+              camera. All startlingly fast.
+            </p>
+            <p class="card__price">$ 499.00</p>
+          </a>
+
+          <a
+            href="#"
+            class="card recommend__card"
+          >
+            <div class="card__image-wrap">
+              <img
+                class="card__image"
+                src="/layout_landing-page/assets/recommended-ear-2-BXfva_oN.jpg"
+                alt="Ear (2)"
+              />
+            </div>
+            <h3 class="card__name">Ear (2)</h3>
+            <p class="card__description">
+              Perfecting the path from artist to ear. So that music sounds just
+              as it was intended.
+            </p>
+            <p class="card__price">$ 149.00</p>
+          </a>
+
+          <a
+            href="#"
+            class="card recommend__card"
+          >
+            <div class="card__image-wrap">
+              <img
+                class="card__image"
+                src="/layout_landing-page/assets/recommended-ear-stick-BmNaSeFN.jpg"
+                alt="Ear (stick)"
+              />
+            </div>
+            <h3 class="card__name">Ear (stick)</h3>
+            <p class="card__description">
+              Tech you can't feel. Leaving just space for sound to come to life.
+              Powered by custom sound technology.
+            </p>
+            <p class="card__price">$ 199.00</p>
+          </a>
+        </div>
+
+        <a
+          href="#browse"
+          class="button recommend__see-all"
+        >
+          See all
+        </a>
+      </section>
+
+      <section
+        class="browse"
+        id="browse"
+      >
+        <h2 class="browse__title">Browse Nothing products by category</h2>
+
+        <div class="browse__categories">
+          <a
+            href="#"
+            class="category browse__category"
+          >
+            <div class="category__image-wrap">
+              <img
+                class="category__image"
+                src="/layout_landing-page/assets/category-all-products-T8GbwBle.jpg"
+                alt="All products"
+              />
+            </div>
+            <p class="category__name">All products</p>
+          </a>
+
+          <a
+            href="#"
+            class="category browse__category"
+          >
+            <div class="category__image-wrap">
+              <img
+                class="category__image"
+                src="/layout_landing-page/assets/category-ear-phones-DGItevD5.jpg"
+                alt="Ear phones"
+              />
+            </div>
+            <p class="category__name">Ear phones</p>
+          </a>
+
+          <a
+            href="#"
+            class="category browse__category"
+          >
+            <div class="category__image-wrap">
+              <img
+                class="category__image"
+                src="/layout_landing-page/assets/category-audio-CkrsAwuM.jpg"
+                alt="Audio"
+              />
+            </div>
+            <p class="category__name">Audio</p>
+          </a>
+
+          <a
+            href="#"
+            class="category browse__category"
+          >
+            <div class="category__image-wrap">
+              <img
+                class="category__image"
+                src="/layout_landing-page/assets/category-phones-pqFFhcDF.jpg"
+                alt="Phones"
+              />
+            </div>
+            <p class="category__name">Phones</p>
+          </a>
+
+          <a
+            href="#"
+            class="category browse__category"
+          >
+            <div class="category__image-wrap">
+              <img
+                class="category__image"
+                src="/layout_landing-page/assets/category-accessories-BT_N3CtL.jpg"
+                alt="Accessories"
+              />
+            </div>
+            <p class="category__name">Accessories</p>
+          </a>
+
+          <a
+            href="#"
+            class="category browse__category"
+          >
+            <div class="category__image-wrap">
+              <img
+                class="category__image"
+                src="/layout_landing-page/assets/category-charger-DRheWaOO.jpg"
+                alt="Accessories"
+              />
+            </div>
+            <p class="category__name">Accessories</p>
+          </a>
+        </div>
+
+        <a
+          href="#recommend"
+          class="button browse__view-all"
+        >
+          View all
+        </a>
+      </section>
+
+      <section
+        class="about"
+        id="about"
+      >
+        <div class="about__banner">
+          <a
+            href="#"
+            class="about__banner-link"
+          >
+            <img
+              class="about__banner-image"
+              src="/layout_landing-page/assets/about-banner-wqlPBjhZ.jpg"
+              alt="Nothing close up banner"
+            />
+          </a>
+        </div>
+
+        <div class="about__content">
+          <h2 class="about__title">About us</h2>
+          <div class="about__text">
+            <p class="about__paragraph">
+              We're a London-based tech company on a mission to remove barriers
+              between people and technology.
+            </p>
+            <p class="about__paragraph">
+              To do this, we're crafting intuitive, flawlessly connected
+              products that improve our lives without getting in the way.
+            </p>
+            <p class="about__paragraph">
+              No confusing tech-speak. No silly product names. Just artistry,
+              passion and trust. And products we're proud to share with our
+              friends and family. Simple.
+            </p>
+            <p class="about__paragraph about__paragraph--last">
+              Because beautiful tech shouldn't be complicated.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact"
+        id="contact"
+      >
+        <h2 class="contact__title">Contact us</h2>
+
+        <div class="contact__wrapper">
+          <form
+            class="contact__form"
+            onsubmit="this.reset(); return false;"
+          >
+            <label class="field contact__field">
+              <input
+                type="text"
+                class="field__input"
+                name="name"
+                placeholder="John Doe"
+                required
+              />
+              <span class="field__label">Name</span>
+            </label>
+
+            <label class="field contact__field">
+              <input
+                type="email"
+                class="field__input"
+                name="email"
+                placeholder="john.doe@example.com"
+                required
+              />
+              <span class="field__label">Email</span>
+            </label>
+
+            <label class="field contact__field">
+              <textarea
+                class="field__input field__input--textarea"
+                name="message"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+              <span class="field__label">Message</span>
+            </label>
+
+            <button
+              type="submit"
+              class="button contact__submit"
+            >
+              Send
+            </button>
+          </form>
+
+          <div class="contact__info">
+            <p class="contact__info-label">Phone</p>
+            <a
+              href="tel:+123455555555"
+              class="contact__info-value contact__info-link"
+            >
+              +1 234 5555-55-55
+            </a>
+
+            <p class="contact__info-label">Email</p>
+            <a
+              href="mailto:hello@nothing.com"
+              class="contact__info-value contact__info-link"
+            >
+              hello@nothing.com
+            </a>
+
+            <p class="contact__info-label">Address</p>
+            <a
+              href="https://maps.google.com/?q=400+first+ave+suite+700+Minneapolis+MN+55401"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact__info-value contact__info-link"
+            >
+              400 first ave.
+              <br />
+              suite 700
+              <br />
+              Minneapolis, MN 55401
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="#"
+        class="footer__logo-link"
+      >
+        <img
+          class="footer__logo"
+          src="data:image/png;base64,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"
+          alt="Nothing logo"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
